@@ -1,0 +1,46 @@
+
+img.imglink { 
+	weight: 200px;
+	height: 200px;
+
+}
+h1.tituloprincipal{
+	font-size: 75px;
+	color: blueviolet;
+}
+
+h2.tituloprincipal{
+	font-size: 50px;
+	color: rebeccapurple;
+}
+
+th {
+	color: forestgreen;
+	background-color: lightgrey;
+	}
+td, th{
+	border: 1px solid;
+}
+
+table.tabla1{
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+}
+
+body{
+	background-color: floralwhite;
+	text-align: center;
+}
+tr.rec {
+	background-color: lightgrey;
+}
+
+table.tabla2{
+	border: none;
+	margin: auto;
+}
+td.imagenclick{
+	border: none;
+}

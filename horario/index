@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DAM</title>
+        <style>
+            html{background-color: cyan;}
+            h1{font-size: 16em; color:  black; font-family: ;}
+            h2{font-size: 12px; color:  red;}
+            table{border:  5px dotted yellow;}
+            th{font:  bold; color: darkblue; border:  2px solid green;}
+            td{border: 2px solid green; color: pink;}
+        </style>
+    </head>
+    <body>
+        <h1>DAM</h1>
+        <br>
+        <h2>HORARIO</h1>
+            <table>
+                <tr>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <td>Sistemas</td>
+                        <td colspan="2">BD</td>
+                        <td>Inglés</td>
+                        <td rowspan="2">Program</td>
+                    </tr>
+                    <tr>
+                        <td>Empresa</td>
+                        <td>Sistemas</td>
+                        <td>Empresa</td>
+                        <td>Entornos</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Program</td>
+                        <td>Sistemas</td>
+                        <td>BD</td>
+                        <td>Inglés</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="text-align: center;">COFFE TIME</td>
+                    </tr>
+                    <tr>
+                        <td>Lenguaje</td>
+                        <td>Entornos</td>
+                        <td>Program</td>
+                        <td colspan="2">BD</td>
+                    </tr>
+                    <tr>
+                        <td>Sistemas</td>
+                        <td>FOL</td>
+                        <td colspan="2">Program</td>
+                        <td>FOL</td>
+                    </tr>
+                    <tr>
+                        <td>Program</td>
+                        <td>Lenguaje</td>
+                        <td>Entornos</td>
+                        <td>FOL</td>
+                        <td>Lenguaje</td>
+                    </tr>
+           </table>
+           <h2>Asignaturas</h2>
+           <ul>
+               <li>Programacion</li>
+               <li>Base de datos</li>
+               <li>Formacion y orientacion laboral</li>
+               <li>Empresa e iniciativa emprendedora</li>
+               <li>Ingles</li>
+               <li>Entornos de desarrollo</li>
+               <li>Lenguaje de marcas</li>
+           </ul>
+     
+    </body>
+</html>
