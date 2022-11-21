@@ -1,0 +1,162 @@
+/* ejercicio 1 */
+#caja1_1 {
+	background-color: blue;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#caja2_1 {
+	background-color: yellow;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#cajaA_1 {
+	background-color: pink;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#cajaB_1 {
+	background-color: green;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#caja3_1 {
+	background-color: cyan;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#caja4_1 {
+	background-color: magenta;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+
+/* ejercicio 2 */
+
+#caja1_2 {
+	background-color: blue;
+	width: 30vw;
+	height: 30vh;
+	float: inline-start;
+}
+#caja2_2 {
+	background-color: yellow;
+	width: 30vw;
+	height: 30vh;
+	float: inline-start;
+}
+#cajaA_2 {
+	background-color: pink;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#cajaB_2 {
+	background-color: green;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#caja3_2 {
+	background-color: cyan;
+	width: 30vw;
+	height: 30vh;
+	float: inline-start;
+}
+#caja4_2 {
+	background-color: magenta;
+	width: 30vw;
+	height: 30vh;
+	clear: left;
+}
+
+/* ejercicio 3 */
+
+#caja1_3 {
+	background-color: blue;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#caja2_3 {
+	background-color: yellow;
+	width: 30vw;
+	height: 30vh;
+	margin-top: 10%;
+	margin-left: 30%;
+	position: absolute;
+}
+#cajaA_3 {
+	background-color: pink;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#cajaB_3 {
+	background-color: green;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#caja3_3 {
+	background-color: cyan;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#caja4_3 {
+	background-color: magenta;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+
+/* ejercicio 4 */
+
+#caja1_4 {
+	background-color: blue;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+}
+#caja2_4 {
+	background-color: yellow;
+	width: 30vw;
+	height: 30vh;
+	margin-top: -10%;
+	margin-left: 30%;
+	position: absolute;
+}
+#cajaA_4 {
+	background-color: pink;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#cajaB_4 {
+	background-color: green;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+#caja3_4 {
+	background-color: cyan;
+	width: 30vw;
+	height: 30vh;
+	top: 0%;
+	position: sticky;
+	margin-left: 38%;
+}
+#caja4_4 {
+	background-color: magenta;
+	width: 30vw;
+	height: 30vh;
+	display: block;
+	margin-left: 69%;
+	margin-top: -243px;
+}
