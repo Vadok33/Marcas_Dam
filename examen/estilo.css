@@ -1,0 +1,41 @@
+
+h1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    font-style: bold;
+    color: blue;
+}
+#caja1{
+   background-color: yellow;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+#caja2{
+    background-color: pink;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 20vh;
+    
+    
+}
+#caja2a{
+    background-color: orange;
+    flex-grow: 1;
+    padding: 10pt;
+    
+}
+#caja2b{
+    background-color: orange;
+    flex-grow: 1;
+    padding: 10pt;
+}
+#caja2c{
+    background-color: orange;
+    flex-grow: 1;
+    padding: 10pt;
+}
+#caja3{
+    background-color: green;
+}
