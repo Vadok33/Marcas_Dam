@@ -38,14 +38,49 @@
             <div class="col-8 col-sm-7">
                 <h1 class="display-3">Imagenes</h1>
                 <img src="gatito.jpeg" alt="foto de gato" class="img-fluid rounded float-end" width="200" height="200">
-                <img src="gatito.jpeg" alt="foto de gato" class="img-fluid thumbnail" width="200" height="200">
+                <img src="gatito.jpeg" alt="foto de gato" class="img-thumbnail" width="200" height="200">
             </div>
             
         </div>
-        <div class="row row-cols-3">
-            <div class="col"><h1 class="display-3">Lista horizontal</h1></div>
-            <div class="col"><h1 class="display-3">Formulario</h1></div>
-            <div class="col"><h1 class="display-3">Botones desplegables</h1></div>
+        <div class="row">
+            <div class="col">
+                <h1 class="display-3">Lista horizontal</h1>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">texto1</li>
+                    <li class="list-inline-item">texto2</li>
+                    <li class="list-inline-item">texto3</li>
+                </ul>
+                
+            </div>
+            <div class="col">
+                <h1 class="display-3">Formulario</h1>
+                    <form action="">
+                        <label for="mail" class="form-label">Correo electronico</label>
+                        <input type="email" id="email" class="form-control" placeholder="example@example.com">
+                        <select class="form-select">
+                            <option selected>Género</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                        </select>
+                        <label for="docs" class="form-label">Añade los documentos</label>
+                        <input type="file" class="form-control" id="docs">
+                        <label for="age" class="form-label">Edad</label>
+                        <input type="range" class="form-range">
+                    </form>
+            </div>
+            <div class="col">
+                <h1 class="display-3">Botones desplegables</h1>
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Boton desplegable</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">Opcion1</a></li>
+                        <li><a class="dropdown-item" href="">Opcion2</a></li>
+                        <li><a class="dropdown-item" href="">Opcion3</a></li>
+                    </ul>
+                </div>
+                <input type="text" class="form-control" aria-label="text input with dropdown button">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
         </div>
 
     </div>
